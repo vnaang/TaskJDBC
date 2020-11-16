@@ -28,7 +28,7 @@ public class Main {
          userService.createUsersTable();
          userService.saveUser(testName, testLastName, testAge);
          userService.saveUser(nameNick, lastNameNick, ageNick);
-         userService.saveUser(nameJulian, lastNameJulian, ageJulian)
+         userService.saveUser(nameJulian, lastNameJulian, ageJulian);
          userService.saveUser(nameElsa, lastNameElsa, ageElsa);
          System.out.println(userService.getAllUsers());
          userService.cleanUsersTable();
